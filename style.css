@@ -1,13 +1,69 @@
 body {
     height: 100vh;
     display: flex;
-    gap: 3%;
+    color: #0e1468;
 }
 
 .title {
-    height: 30vh;
-    min-width: 400px;
+    min-width: 380px;
     display: flex;
-    background-color: yellow;
+    align-items: center;
+    padding: min(9%, 70px);
+} 
+
+form section:first-child {
+    max-height: 40vh;
+    min-width: 450px;
+    color: white;
+    background: linear-gradient(to bottom, #0e1468, #42b1c9);
+    padding: 2rem;
+    box-shadow: 0px 10px 10px 0px rgba(56,56,56,0.5);
 }
 
+.title2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+.form {
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.last {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+
+button {
+  font-size: medium;
+  font-weight: 600;
+  width: 200px;
+  height: 50px;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 12px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+}
+
+button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+a {
+    text-decoration: none;
+}
