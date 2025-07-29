@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    display: flex;
+    gap: 3%;
+}
+
+.title {
+    height: 30vh;
+    min-width: 400px;
+    display: flex;
+    background-color: yellow;
+}
+
